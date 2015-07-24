@@ -26,17 +26,21 @@ body {
   border: 1px solid #ccc;
   vertical-align: middle;
 }
-#container .box01 {
+#container .table-cell {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-#container .box02 {
+#container .flexbox {
   display: flex;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
+}
+#container .line-height {
+  line-height: 180px;
+  text-align: center;
 }
 
 .tit {
