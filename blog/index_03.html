@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<![endif]-->
+<title>テキストの縦方向の中央揃えについて</title>
+<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+<div id="container">
+<p class="tit">【Flexbox】</p>
+<p class="box box02">box02</p>
+<!-- /#container --></div>
+<pre>
+【CSS追加】
+.box02 {
+  display: flex;
+  -webkit-align-items: center; /* safari用 */
+  align-items: center; /* 縦方向中央揃え */
+  -webkit-justify-content: center; /* safari用 */
+  justify-content: center; /* 横方向中央揃え */
+}
+</pre>
+</body>
+</html>

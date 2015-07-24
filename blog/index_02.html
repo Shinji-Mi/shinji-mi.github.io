@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<![endif]-->
+<title>テキストの縦方向の中央揃えについて</title>
+<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+<div id="container">
+<p class="tit">【table-cell】</p>
+<p class="box box01">box01</p>
+<!-- /#container --></div>
+<pre>
+【CSS追加】
+.box01 {
+  display: table-cell; /* IE8から使用可能 */
+  vertical-align: middle;
+  text-align: center;
+}
+</pre>
+</body>
+</html>
