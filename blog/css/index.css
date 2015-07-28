@@ -25,13 +25,14 @@ body {
   height: 180px;
   border: 1px solid #ccc;
   vertical-align: middle;
+  text-align: center;
 }
 #container .table-cell {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
 }
 #container .flexbox {
+  display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
   align-items: center;
@@ -40,7 +41,6 @@ body {
 }
 #container .line-height {
   line-height: 180px;
-  text-align: center;
 }
 
 .tit {
